@@ -25,6 +25,16 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+
+    "packagerOpts": {
+      "config": {
+        "extraNodeModules": {
+          "react-native-gesture-handler": "./node_modules/react-native-gesture-handler"
+        }
+      }
     }
+    
+
   }
 }
